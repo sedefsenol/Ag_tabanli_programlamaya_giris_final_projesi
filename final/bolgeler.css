@@ -1,0 +1,220 @@
+body {
+            
+    background-color: #f2eeec;    /* anasayfa renk*/
+}
+h1{
+    margin-top: 22px;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace
+    
+}
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+    background: rgb(161, 62, 62);
+}
+ul li{
+    display:inline-block;
+    position: relative;
+}
+ul li a{
+    display:block;
+    padding:15px 20px;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li ul.dropdown li{
+        display:block;
+}
+ul li ul.dropdown{
+        width:100%;
+        background-color: rgb(161, 62, 62);
+        position: absolute;
+        z-index:999;
+        display:none;
+}
+ul li a:hover{
+    background-color: rgb(155, 90, 90);
+}
+ul li:hover ul.dropdown{
+        display:block;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+    
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff; 
+    margin-right: 20px;
+}
+    
+.navbar img {
+    width: 28px; /* Logo genişliği */
+    height: 30px; /* Otomatik yükseklik, oranı korur */
+    margin-right: 3px; 
+}
+
+#kutu
+{
+    width:550px;
+    height: 380px;
+    margin-left: 20px;
+}  
+
+
+b{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#isim{
+    margin-left: 15px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+
+}
+#hakkımızda{
+    background-color: rgb(161, 62, 62);
+    height: 40px; 
+    margin-top: 50px;                                                                 
+}
+#hakkımızda ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#hakkımızda li {
+    display: inline-block;
+    margin-right: 20px; /* İstenilen boşluğu ayarlayabilirsiniz */
+    
+    margin-left: 50px;
+}
+
+#hakkımızda a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+ul li a#kvkk {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size:larger;
+    color: #ffffff;
+}
+ul li a#kvkk:hover {
+    background-color: transparent;  /* KVKK hover iptal */
+}
+
+.cizgi{
+    text-align: left;
+    border-bottom: 5px solid rgb(161, 62, 62);  /* çizgi kalınlık */
+    font-size: 30px;
+    margin-left: 10px;
+}
+.cizgi span {
+    display: inline-block;
+    transform: translateY(50%);        /* metni dikey ortalar */
+    background: rgb(161, 62, 62);
+    padding: 0 15px;                   /* sol ve sağ boşluk */
+    color: #fcfcfc;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 30px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    margin-right: 30px;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.searchbox {
+    margin-top: 20px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbox input {
+    width: 200px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #f5f5f5; /* Arka plan rengi */
+    border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 6px; /* Kenarlık köşe yuvarlaklığı */
+    padding: 3px; 
+}
+div.mycontainer {
+                
+    display: flex;
+    flex-wrap:wrap;   /*tlf uyumlu */
+    row-gap: 36px;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div.mycontainer .side-by-side {  /* anasayfa 3lü */
+    /* flex: 1;    eşit genişlik */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*
+    margin-left: 20px;
+    margin-right: 20px; */
+    border:1px solid #d8d3d3;
+    border-radius: 4px;
+    background-color: #d8d3d3;
+
+}
+
+.side-by-side img{
+    width:350px;
+    height:270px; 
+}
+
+.side-by-side-text{
+    color: rgb(161, 62, 62);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 22px
+}
